@@ -1,0 +1,27 @@
+
+.plot{
+	width:33%;
+	height:200px;
+	float:left;
+}
+.plot h2{
+    position:absolute;
+    font-size:1.2em;
+    color:rgb(130,20,50);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.guide{
+    fill:none;
+    stroke:rgb(100,100,100);
+}
+
+
+.plot .line path{
+	fill:none;
+	stroke-width:1px;
+	stroke:rgb(80,80,80);
+}
+.plot .area path{
+	fill:rgba(100,100,100,.5);
+}
